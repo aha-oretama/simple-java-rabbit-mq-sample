@@ -27,7 +27,7 @@ public class EmitLogDirect {
         String severity = getSeverity(args);
         String message = getMessage(args);
 
-        channel.basicPublish(EXCHANGE_NAME,severity, null, message.getBytes());
+        channel.basicPublish(EXCHANGE_NAME, severity, null, message.getBytes());
         System.out.println(" [x] Sent '" + severity + "':'" + message + "'");
 
         channel.close();
