@@ -3,7 +3,11 @@ This is made by referring [tutorial](https://www.rabbitmq.com/tutorials/tutorial
 
 # How to run
 
+RabbitMQ server runs by following commands.
+
 ```bash
 $ docker-compose up -d
-$ java ...
 ```
+
+Java applications run by `java` command.
+The detail command and what each application is doing are referred to tutorials, [part 1](https://www.rabbitmq.com/tutorials/tutorial-one-java.html), [part 2](https://www.rabbitmq.com/tutorials/tutorial-two-java.html), [part 3](https://www.rabbitmq.com/tutorials/tutorial-three-java.html), [part 4](https://www.rabbitmq.com/tutorials/tutorial-four-java.html), [part 5](https://www.rabbitmq.com/tutorials/tutorial-five-java.html).  
